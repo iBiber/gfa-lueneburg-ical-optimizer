@@ -1,10 +1,7 @@
 <template>
   <div>
     <q-list bordered class="rounded-borders">
-      <q-expansion-item
-        expand-separator
-        label="Anleitung"
-      >
+      <q-expansion-item expand-separator label="Anleitung">
         <q-card>
           <ol>
             <li>Den <a href="https://www.gfa-lueneburg.de/service/abfuhrkalender.html" target="_blank">GfA Abfuhrkalender</a> öffnen und den Standort eingeben.
@@ -14,13 +11,15 @@
           </ol>
         </q-card>
       </q-expansion-item>
-      <q-expansion-item
-        expand-separator
-        label="Datenschutz"
-      >
+      <q-expansion-item expand-separator label="Datenschutz">
         <q-card>
-          Es werden von dieser Seite keinerlei Daten erhoben und ins Internet übertragen.<br />
+          Es werden von dieser Seite keinerlei Daten erhoben oder ins Internet übertragen.<br />
           Die gesamte Analyse und Bearbeitung der Daten geschieht lokal in ihrem Browser.
+        </q-card>
+      </q-expansion-item>
+      <q-expansion-item expand-separator label="Hinweis">
+        <q-card>
+          Dieses Tool ist Open Source. Das Projekt inklusive der Quellen finden sie auf <a href="https://github.com/iBiber/gfa-lueneburg-ical-optimizer" target="_blank">https://github.com/iBiber/gfa-lueneburg-ical-optimizer</a>.
         </q-card>
       </q-expansion-item>
     </q-list>
