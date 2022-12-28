@@ -2,7 +2,7 @@
 gf-lueneburg-ical-optimizer ist ein Tool, das die iCal-Dateien der GFA-Lüneburg optimiert.
 
 Gehe auf https://ibiber.github.io/gfa-lueneburg-ical-optimizer/ um das Tool einfach zu verwenden.
-
+test
 Features sind:
 * Hinzufügen von Alarmen zu einer bestimmten Uhrzeit vor dem Entsorgungstermin
 * Das Entfernen von bestimmten Abholungsarten
