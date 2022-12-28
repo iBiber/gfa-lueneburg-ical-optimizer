@@ -1,13 +1,32 @@
 <template>
   <div>
-    <h4>Anleitung</h4>
-    Den <a href="https://www.gfa-lueneburg.de/service/abfuhrkalender.html" target="_blank">GfA Abfuhrkalender</a> öffnen und den Standort eingeben.
-    Auf weiter drücken und dann dort die "Leerungstermine" als <b>"ical-Kalenderdatei"</b> herunterladen.
-    Diese Datei hier einfügen, die Optionen wählen und eine neue ical-Kalenderdatei erstellen lassen.
-    Diese neue Datei kann nun in einer Kalender-App importiert werden.
+    <q-list bordered class="rounded-borders">
+      <q-expansion-item
+        expand-separator
+        label="Anleitung"
+      >
+        <q-card>
+          <ol>
+            <li>Den <a href="https://www.gfa-lueneburg.de/service/abfuhrkalender.html" target="_blank">GfA Abfuhrkalender</a> öffnen und den Standort eingeben.
+          Auf weiter drücken und dann dort die "Leerungstermine" als <b>"ical-Kalenderdatei"</b> herunterladen.</li>
+            <li>Diese Datei hier einfügen, die gewünschten Optionen wählen und eine neue ical-Kalenderdatei erstellen lassen.</li>
+            <li>Diese neue Datei kann nun in einer Kalender-App importiert werden.</li>
+          </ol>
+        </q-card>
+      </q-expansion-item>
+      <q-expansion-item
+        expand-separator
+        label="Datenschutz"
+      >
+        <q-card>
+          Es werden von dieser Seite keinerlei Daten erhoben und ins Internet übertragen.<br />
+          Die gesamte Analyse und Bearbeitung der Daten geschieht lokal in ihrem Browser.
+        </q-card>
+      </q-expansion-item>
+    </q-list>
     <h4>Einstellungen</h4>
     <div>
-      <div>Datei der GfA:</div>
+      <div>Die von <a href="https://www.gfa-lueneburg.de/service/abfuhrkalender.html" target="_blank">GfA Abfuhrkalender</a> heruntergeladene Datei (iCal) hier auswählen:</div>
       <q-file
         v-model="file"
         label="Wähle .ics Datei der GfA hier aus"
