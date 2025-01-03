@@ -15,7 +15,11 @@ Die UI kann natürlich auch lokal gebaut und gehostet werden. Während der Entwi
 
 ## How to develop
 Systemanforderungen:
-* NodeJS muss verfügbar sein
+NodeJS muss verfügbar sein
+Oder per node-docker-container gestartet werden:
+```
+docker run --rm -it -p 8080:8080 -e "NODE_OPTIONS=--openssl-legacy-provider" -v "$(pwd):/usr/src/app" -w "/usr/src/app" node:23 bash
+```
 
 Prepare:
 1. Repo clonen

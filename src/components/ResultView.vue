@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>Ergebnis</h4>
+    <h4 style="margin-top: 5px; margin-bottom: 10px;">Ergebnis</h4>
     <div v-if="eventDataStore.state.setAlarm">
       Alarm wird gesetzt auf {{ 24 - eventDataStore.state.hoursForAlarm }} Uhr (-{{
         eventDataStore.state.hoursForAlarm
