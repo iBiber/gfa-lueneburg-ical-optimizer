@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4>Einstellungen</h4>
+    <h4 style="margin-top: 5px; margin-bottom: 10px;">Einstellungen</h4>
     <div>
       <div>Die von <a href="https://www.gfa-lueneburg.de/service/abfuhrkalender.html" target="_blank">GfA Abfuhrkalender</a> heruntergeladene Datei (iCal) hier auswählen:</div>
       <q-file
