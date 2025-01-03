@@ -9,6 +9,11 @@
     <q-page-container class="q-pa-sm">
         <q-card>
           <q-card-section>
+            <Descriptions />
+          </q-card-section>
+        </q-card>  
+        <q-card>
+          <q-card-section>
             <FileSelector />
           </q-card-section>
         </q-card>
@@ -22,6 +27,7 @@
 </template>
 
 <script>
+import Descriptions from "./components/Descriptions.vue";
 import FileSelector from "./components/FileSelector.vue";
 import ResultView from "./components/ResultView.vue";
 import store from "./store/FileStore";
@@ -37,6 +43,7 @@ export default {
     
   },
   components: {
+    Descriptions,
     FileSelector,
     ResultView,
   },
